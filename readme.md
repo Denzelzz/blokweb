@@ -49,11 +49,15 @@ Ik weet nog niet zeker of ik alles semantisch correct codeer.
 **Screenshot(s):**
 
 
-![screenshot(s) die een goed beeld geven van de website die ik maak!](images/screenshot.week.3.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/week.3.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+1. Benthe 
+2. Fleur 
+3. Denzel
+4. Jody
+5. Arthur
 
 ### Verslag van meeting
 
