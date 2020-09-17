@@ -38,11 +38,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Wat ging er goed?
+Totdat ik wat technische problemen met mijn laptop kreeg ging het erg goed met het responsive maken van mijn nav en het implementeren van de huisstijl van de.
+
+Wat ging er niet goed?
+Ik snap nog niet echt hoe je elementen laat inspringen na zoveel px of em. 
+Hoe kan ik zorgen dat mijn menu button na zoveel pixels overspringt naar een nav met 3 links?
+Ik weet nog niet zeker of ik alles semantisch correct codeer.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+
 
 ### Agenda voor meeting
 
