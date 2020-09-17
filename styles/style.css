@@ -1,5 +1,107 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
+
+/* general style*/
+body {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 0px 16px;
+    font-size: 16px;
+    margin: 0px 0px 22.4px;
+    line-height: 1.65em;
+    color: #333333;
+}
+
+
+/* Header */
+header {
+    display: flex;
+    position: fixed;
+    background-color: #F2F2F2;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+
+}
+
+nav {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+nav section:first-of-type  {
+    left: 0%;
+}
+
+nav section:first-of-type ul {
+    padding-left: 1em;
+}
+
+button:first-of-type {
+    border-style: none;
+}
+
+button:first-of-type img {
+    width: 1.5em;
+    margin-right: 1em;
+    margin-top: 0.3em
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+nav section ul {
+    display: flex;
+}
+
+nav section:last-of-type {
+    margin-left: 3em;
+}
+
+img:first-of-type {
+    width: 5em;
+}
+
+section ul li a {
+    text-decoration-line: none;
+}
+
+nav section:last-of-type ul li a img {
+    margin-left:
+}
+
+nav section:last-of-type ul li a img:last-of-type {
+    width: 1.2em;
+
+}
+
+/* Main */
+main img:first-of-type {
+    width: 100%;
+    padding-top: 3.8em;
+    padding-left: 0em;
+    margin: 0em;
+    border-left: 0em;
+}
+
+
+
+
+
+
+
 
