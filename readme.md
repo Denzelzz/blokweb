@@ -49,7 +49,7 @@ Ik weet nog niet zeker of ik alles semantisch correct codeer.
 **Screenshot(s):**
 
 
-![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/week3/screenshot.week.3)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/screenshot.week.3)
 
 ### Agenda voor meeting
 
