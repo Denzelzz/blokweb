@@ -30,9 +30,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Wat ging er goed?
+Alles gaat bij mij tot nu toe goed. ik ben klaar met mijn nav en mijn footer en ga nun beginnen aan de layout van de pagina en daarna ga ik mijn homepagina afmaken.
 
+Wat ging er niet goed?
+ik heb tot nu toe geen tot weinig problemen gehad met het afmaken van mijn project, als ik een probleem heb weet ik het zelf wel op te lossen.
 
+Hulp bij:
+- Ik zou graag nog wat meer willen weten over hoe ik vanaf 760px mijn burger menu hervorm met media queries naar 3 links in mijn nav.
+- Ik zou graag meer wille weten over forms 
+- Ik wil graag meer weten over Grid
+
+Screenshots:
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/nav.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/header.code.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/header.css.1.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/header.css.2.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/header.css.3.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/pagina.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.5/main.footer.png)
+
+### Agenda voor meeting
+
+1. Benthe 
+2. Fleur 
+3. Denzel
+4. Jody
+5. Arthur
 
 ## Voortgang 1 (week 3)
 
