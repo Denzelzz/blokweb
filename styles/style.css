@@ -25,29 +25,80 @@ p{
 
 /* Header */
 header {
-    display: flex;
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     width: 100%;
-    top: 0%;
-    left: 0%;
-
+    top: 0;
+    left: 0;
 }
 
 nav {
     display: flex;
-    padding: 0px;
+    padding: 0 1em;
+    margin: 0;
+    flex-grow: 1;
+    height: 66px;
+}
+
+nav ul {
+    display: flex;
     align-items: center;
-    margin: 0px 0px 0px 0px;
-
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
-nav section:first-of-type  {
-    left: 0%;
+nav ul img:first-of-type {
+    width: 5em;
 }
 
-nav section:first-of-type ul {
-    padding-left: 1em;
+nav ul:first-of-type li:first-of-type button img {
+    width: 1.8em;
+    margin: auto;
+}
+
+nav ul:first-of-type li:last-of-type {
+    margin-left: auto;
+    margin: auto auto auto 1.5em;
+}
+
+nav ul:last-of-type {
+    margin-left: auto;
+}
+
+nav ul:last-of-type li {
+    justify-content: flex-end;
+    margin-left: 2em;
+}
+
+nav ul:last-of-type li:first-of-type  {
+    padding: 16px 0.8em;
+    border-right: solid;
+    border-width: thin;
+    border-color: #e3e3e3;
+}
+
+nav ul:last-of-type li:nth-of-type(2) a img {
+    width: 1.2em;
+}
+
+nav ul:last-of-type li:nth-of-type(3) a img {
+    width: 1.2em;
+}
+
+nav ul:last-of-type li:nth-of-type(4) a img{
+    width: 1.4em;
+}
+
+nav ul:last-of-type li:last-of-type a img {
+    width: 2.5em;
+    margin: auto;
+    padding: 24px 0px 24px 1em;
+    border-left: solid;
+    border-width: thin;
+    border-color: #e3e3e3;
 }
 
 button:first-of-type {
@@ -56,49 +107,53 @@ button:first-of-type {
 
 button:first-of-type img {
     width: 1.5em;
-    margin-right: 1em;
-    margin-top: 0.3em
 }
 
-header nav ul {
-    list-style-type: none;
+@media (max-width: 450px) {
+    nav ul:last-of-type li:first-of-type a img {
+        display: none;
+    }
 }
 
-nav section ul {
-    display: flex;
+@media (max-width: 760px) {
+
 }
 
-nav section:last-of-type {
-    margin-left: 3em;
-}
-
-img:first-of-type {
-    width: 5em;
-}
-
-section ul li a {
-    text-decoration-line: none;
-}
-
-nav section:last-of-type ul li a img {
-    margin-left:
-}
-
-nav section:last-of-type ul li a img:last-of-type {
-    width: 1.2em;
-
+@media (max-width: 900px) {
+    nav ul:last-of-type li:nth-of-type(2) {
+        display: none;
+    }
 }
 
 /* Main */
+
 main img:first-of-type {
     width: 100%;
     padding-top: 3.8em;
     padding-left: 0em;
     margin: 0em;
     border-left: 0em;
+    width: 100%;
 }
 
+section:first-of-type {
+    display: grid;
+}
 
+h1 {
+    margin: 0.6em;
+    grid-row-start: 2;
+}
+
+/* Footer */
+footer {
+    background-color: #F2F2F2;
+}
+
+footer img:first-of-type {
+    width: 5em;
+    margin: 2em 1em
+}
 
 
 
