@@ -30,7 +30,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
-Wat ging er goed?
+Wat ging er goed/
 Alles gaat bij mij tot nu toe goed. ik ben klaar met mijn nav en mijn footer en ga nun beginnen aan de layout van de pagina en daarna ga ik mijn homepagina afmaken.
 
 Wat ging er niet goed?
