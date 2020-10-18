@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="14.7631579 1.84184211 13.3160526 0.394736842 7.57894737 6.13184211 1.84184211 0.394736842 0.394736842 1.84184211 6.13184211 7.57894737 0.394736842 13.3160526 1.84184211 14.7631579 7.57894737 9.02605263 13.3160526 14.7631579 14.7631579 13.3160526 9.02605263 7.57894737"></polygon>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="close-light">
+            <polygon id="Shape" points="0.6637 0.7485 31.8637 0.7485 31.8637 31.9485 0.6637 31.9485"></polygon>
+            <g id="a-link" transform="translate(6.663700, 6.748500)" fill="#FFFFFF" fill-rule="nonzero">
+                <polygon id="a" points="18.7 2.333 16.867 0.5 9.6 7.767 2.333 0.5 0.5 2.333 7.767 9.6 0.5 16.867 2.333 18.7 9.6 11.433 16.867 18.7 18.7 16.867 11.433 9.6"></polygon>
+            </g>
+            <g id="Clipped" transform="translate(9.000000, 9.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="a"></g>
+                <g id="Group" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(-4.736842, -4.736842)" id="Shape">
+                        <polygon points="0 0 24.3037105 0 24.3037105 24.3037105 0 24.3037105"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

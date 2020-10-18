@@ -11,13 +11,19 @@ body {
 
 a {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
 }
 
-p{
+a:hover {
+    color: red;
+    transition: color .2s ease-in-out;
+}
+
+p {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding: 0px 16px;
+    padding: 0px;
     font-size: 16px;
-    margin: 0px 0px 22.4px;
+    margin: 0;
     line-height: 1.65em;
     color: #333333;
 }
@@ -26,6 +32,226 @@ li {
     list-style-type: none;
 }
 
+ol {
+    padding: 0;
+}
+
+h2 {
+    margin: .5em .83em;
+}
+
+h3 {
+    padding-bottom: .5em;
+    font-weight: 700;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: .61111em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+h4 {
+    color: #999;
+    font-size: .6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: .8em;
+    margin-bottom: 1.6em;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
+    display: flex;
+
+}
+
+/* Media queries - max */
+@media (max-width: 450px) {
+    nav ul:last-of-type li:first-of-type a img {
+        display: none;
+    }
+    nav ul:last-of-type li:first-of-type  {
+        display: none;
+}
+}
+
+@media (max-width: 600px){
+    section p {
+        display: none;
+    }
+
+    div:nth-of-type(12) {
+        display: none;
+    }
+
+    .overzicht {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .andere p {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    nav ul:last-of-type li:nth-of-type(2) {
+        display: none;
+    }
+}
+
+/* Media queries - min */
+@media (min-width: 450px) {
+
+}
+
+@media (min-width: 590) {
+
+}
+
+
+@media (min-width: 600px) {
+/* Artikelen pagina  */
+
+    div:nth-of-type(3) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2.22em 1.78em;
+        padding: 30px 20px;
+    }
+
+    div section ul a {
+        margin: 0;
+        padding: 0;
+    }
+
+    div section ul a {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    div section ul a li:first-of-type {
+        order: 1;
+    }
+
+    div section ul a li:first-of-type h2 {
+        margin: 0 0 .5em;
+        padding: 0;
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 1.3;
+        transition: color .25s ease-in-out;
+    }
+
+    div section ul a li:nth-of-type(2) img {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    div section ul a li:nth-of-type(3) {
+        order: 2;
+        margin: 0;
+        font-size: .89em;
+        line-height: 1.5;
+        color: #333;
+    }
+
+    div section ul a li:nth-of-type(3) {
+        padding: 0;
+    }
+
+    /* Tip van de redactie  */
+    .tip {
+        font-size: .94444rem;
+        padding: 18px 8px;
+    }
+
+    div:nth-of-type(7) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2.22em 1.78em;
+        padding: 0px 20px;
+    }
+
+    section.redactie ul a {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    .redactie h2 {
+        font-size: .77778em;
+        line-height: 1.4;
+        font-weight: normal;
+    }
+
+    /* Overzicht */
+    .overzicht {
+        display: none;
+        display: grid;
+        grid-template-columns: 50% 40%;
+        grid-gap: 30px;
+    }
+
+    .overzicht div:first-of-type ul {
+        grid-column-start: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .overzicht div:nth-of-type(2) {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}
+
+@media (min-width: 760px) {
+    /* Nav */
+    nav button {
+        display: none;
+    }
+
+    /* 1ste twee artikelen */
+    .top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .top div:nth-of-type(1) img {
+        height: 99%;
+    }
+
+    .top div:nth-of-type(2) img {
+        height: 100%;
+    }
+
+    /* Artikelen */
+    div section ul a li:nth-of-type(2) {
+        width: 100%;
+    }
+
+    /* Andere */
+    .andere ul  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .andere ul h1 {
+        color: #333333;
+    }
+}
+
+@media (min-width: 849px) {
+    .top div:nth-of-type(1) img {
+        height: 99%;
+    }
+
+    .top div:nth-of-type(2) img {
+        height: 0%;
+    }
+    }
 
 /* Header */
 header {
@@ -35,11 +261,12 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 nav {
     display: flex;
-    padding: 0 1em;
+    padding: 0 1em 0 0;
     margin: 0;
     flex-grow: 1;
     height: 66px;
@@ -63,7 +290,6 @@ nav ul:first-of-type li:first-of-type button img {
 }
 
 nav ul:first-of-type li:last-of-type {
-    margin-left: auto;
     margin: auto auto auto 1.5em;
 }
 
@@ -112,60 +338,46 @@ button:first-of-type img {
     width: 1.5em;
 }
 
-@media (max-width: 450px) {
-    nav ul:last-of-type li:first-of-type a img {
-        display: none;
-    }
-    nav ul:last-of-type li:first-of-type  {
-        display: none;
-}
+/* Button */
+.dropbtn {
+  cursor: pointer;
 }
 
-@media (max-width: 600px){
-    p {
-        display: none;
-    }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    padding-top: 166px;
+    display: none;
+    background-color: #f2f2f2;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-@media (max-width: 760px) {
-
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #333333;
+    border-top: 1px solid #f4f4f4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-@media (max-width: 900px) {
-    nav ul:last-of-type li:nth-of-type(2) {
-        display: none;
-    }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block
 }
 
 /* Main */
-section {
-
+/* 1ste twee artikelen in de pagina */
+.top h2 {
+    margin: 1.33em;
 }
 
-section a {
-    text-decoration: none;
-    color: #333333;
-}
-
-section ul {
-    padding: .5em 0em .5em 0em;
-    margin: 0em .5em;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    align-items: center;
-    border-bottom: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: lightgrey;
-}
-
-a:hover {
-    color: red;
-}
-
-main div {
-    display: grid;
-}
 
 div img {
     width: 100%;
@@ -174,24 +386,41 @@ div img {
 div:first-of-type {
     position: relative;
     color: white;
-    margin: 0px;
-}
-
-div:nth-of-type(2) {
-    position: relative;
-    color: white;
 }
 
 div:first-of-type h2 {
     position: absolute;
     bottom: 0;
-    margin-left: 10px
+    margin-left: 10px;
+    color: white;
 }
 
-div:nth-of-type(2) h2 {
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px
+/* Artikelen in de pagina  */
+.title {
+    margin: 0;
+    font-size: .88em;
+    font-weight: 500;
+    padding: 0em .5em;
+    line-height: 1.3;
+    transition: color .25s ease-in-out;
+    word-break: break-word;
+}
+
+section ul{
+    margin: 0;
+    padding: 0;
+}
+
+section ul a {
+    text-decoration: none;
+    color: #333333;
+    padding: .89em 0;
+    margin: 0em .5em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
 }
 
 section img {
@@ -199,16 +428,216 @@ section img {
     height: 62.77;
 }
 
-.title {
-    font-size: .88em;
-    padding: 0em .5em;
-    font-weight: 500;
-    line-height: 1.3
+/* Laatste */
+    div:nth-of-type(4) {
+        padding: 0 18px;
+    }
+
+    div:nth-of-type(4) h2 {
+        font-size: 11px;
+        display: inline-block;
+        font-weight: bold;
+        line-height: 1.5em;
+        text-transform: uppercase;
+        padding: 0 0 2.263px o;
+        margin: 0;
+        color: #E61E14;
+        border-bottom: 2px solid #E61E14;
+    }
+
+    div:nth-of-type(4) div a {
+        color: #333333
+    }
+
+    div:nth-of-type(4) div a:hover {
+        color: red;
+        transition: color .2s ease-in-out;
+    }
+
+    div:nth-of-type(4) li {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    div:nth-of-type(4) img {
+        width: 60px;
+    }
+
+/* "Live kanalen" en "Je hoeft niets te missen" */
+div:nth-of-type(5) {
+    margin: 1.39em 0 1.67em;
+    padding: 0 1.125em;
+    color: #333;
 }
+
+div:nth-of-type(5) ul {
+    border: 1px solid #eaeaea;
+    border-radius: .44rem;
+    padding: 0;
+    margin: 10px 0;
+}
+
+div:nth-of-type(5) ul a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+div:nth-of-type(5) ul li:nth-of-type(1) {
+    width: 48px;
+    height: 35px;
+}
+
+div:nth-of-type(5) ul li:nth-of-type(2) h3 {
+    margin: 0;
+    font-size: .83em;
+    font-weight: 700;
+    line-height: 1.11;
+    color: #333;
+    text-transform: none;
+    border-bottom: none;
+}
+
+.bekijk {
+    margin: 0;
+    font-size: .61em;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -1.11;
+    color: #9d9d9d;
+    text-transform: uppercase;
+}
+
+div:nth-of-type(5) ul li:nth-of-type(2) {
+    margin-left: 10px
+}
+
+div:nth-of-type(5) ul li:nth-of-type(3) {
+    width: 15px;
+    margin-left: auto;
+}
+
+div:nth-of-type(5) div p {
+    padding: 0;
+    font-weight: normal;
+    font-size: .77778em;
+    line-height: 1.5em;
+}
+
+/* Meest bekeken video's */
+h2 {
+    padding: 18px 8px;
+    font-size: .94444rem;
+    line-height: 1.33333rem;
+    color: #212121;
+    font-weight: bold;
+    display: block;
+    margin: 5em .83em .83em;
+}
+
+div:nth-of-type(6) {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /* Bron: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+}
+
+
+/* Tip van de redactie */
+.tip {
+    padding: .4444rrem 1rem .55556rem;
+    font-size: .94444rem;
+    margin: 5em .83em 1em ;
+}
+
+.redactie ul a {
+    flex-direction: row;
+}
+
+.redactie h2 {
+    font-size: .77778em;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+/* Nieuws in beeld */
+
+
+/* 'Nieuwsuur', 'NOS op 3' en 'NOS Stories' */
+.andere {
+    margin: 0;
+    padding: 0 18px;
+    width: 100%;
+    position: relative;
+}
+
+.andere ul {
+    margin: 0;
+    padding: 0;
+}
+
+.andere ul {
+    margin: 10px 0;
+}
+
+
+.andere ul a {
+    color: #fff;
+    margin: 0;
+}
+
+.andere ul a li h1 {
+    position: absolute;
+    padding: .75em;
+    bottom: 0;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 700;
+    transition: color .2s ease-in-out;
+}
+
+/* Categorieën */
+.overzicht a {
+    color: #333;
+    font-size: .77778em;
+    line-height: 1.16667em;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    border-bottom: none;
+}
+
+section.overzicht ol {
+
+}
+
+section.overzicht div ul li {
+    padding-right: 5%;
+    margin: 0 0 1em 1em;
+    display: block;
+}
+
+/* Categorie nieuws */
+
+/* Categorie sport */
 
 /* Footer */
 footer {
     background-color: #F2F2F2;
+    bottom: 0;
 }
 
 footer a {
