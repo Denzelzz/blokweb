@@ -61,7 +61,16 @@ Wat ging er niet goed?
 Ik had deze week erg veel last van mijn nav en het coderen er van. Ik begreep niet echt veel van en ik snapte ook niet hoe ik een hamburger menu moet maken die naar beneden dropt. Ook merkte ik dat ik heel veel moeite had met het correct selecteren van mijn code in mijn css.
 
 **Screenshot(s):**
-
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/1.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/2.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/3.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/4.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/5.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/6.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/7.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/8.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/9.png)
+![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang.6/10.png)
 
 
 ## Voortgang 2 (week 5)
