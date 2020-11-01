@@ -32,18 +32,24 @@ Wat ging er niet goed?
 Ik haal erg veel tijdnood en 2 dagen voor de deadline van de herkansing herschreef ik een leeg document over mijn index.html bestand heen waardoor ik weer helemaal opnieuw moest beginnen vanaf week 7. Ik had ook heel veel fout gedaan in mijn html pagina's die ik daarna moest verbeteren maar dit koste me erg veel tijd die ik niet had. 
 
 **Screenshot(s):**
+Nav
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/1.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/2.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/3.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/4.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/5.png)
+Heading (de bovenste twee artikelen)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/6.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/7.png)
+Artikelen
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/8.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/9.png)
+Iframe
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/10.png)
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/11.png)
+Grid
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/12.png)
+Footer
 ![screenshot(s) die een goed beeld geven van de website die ik maak!](images/voortgang/13.png)
 
 ## Voortgang 3 (week 6)
